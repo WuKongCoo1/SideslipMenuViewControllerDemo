@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180EEF521C56134700A695AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF511C56134700A695AA /* main.m */; };
+		180EEF551C56134700A695AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF541C56134700A695AA /* AppDelegate.m */; };
+		180EEF5B1C56134700A695AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EEF591C56134700A695AA /* Main.storyboard */; };
+		180EEF5D1C56134700A695AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EEF5C1C56134700A695AA /* Assets.xcassets */; };
+		180EEF601C56134700A695AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EEF5E1C56134700A695AA /* LaunchScreen.storyboard */; };
+		180EEF6B1C56134700A695AA /* SideslipMenuViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF6A1C56134700A695AA /* SideslipMenuViewControllerDemoTests.m */; };
+		180EEF761C56134700A695AA /* SideslipMenuViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF751C56134700A695AA /* SideslipMenuViewControllerDemoUITests.m */; };
+		180EEF8A1C56137E00A695AA /* SlideslipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF851C56137E00A695AA /* SlideslipViewController.m */; };
+		180EEF8B1C56137E00A695AA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF871C56137E00A695AA /* DetailViewController.m */; };
+		180EEF8C1C56137E00A695AA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EEF891C56137E00A695AA /* MenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180EEF671C56134700A695AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180EEF451C56134700A695AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180EEF4C1C56134700A695AA;
+			remoteInfo = SideslipMenuViewControllerDemo;
+		};
+		180EEF721C56134700A695AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180EEF451C56134700A695AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180EEF4C1C56134700A695AA;
+			remoteInfo = SideslipMenuViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180EEF4D1C56134700A695AA /* SideslipMenuViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideslipMenuViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180EEF511C56134700A695AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180EEF531C56134700A695AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180EEF541C56134700A695AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180EEF5A1C56134700A695AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180EEF5C1C56134700A695AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180EEF5F1C56134700A695AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180EEF611C56134700A695AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180EEF661C56134700A695AA /* SideslipMenuViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideslipMenuViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180EEF6A1C56134700A695AA /* SideslipMenuViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideslipMenuViewControllerDemoTests.m; sourceTree = "<group>"; };
+		180EEF6C1C56134700A695AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180EEF711C56134700A695AA /* SideslipMenuViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideslipMenuViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180EEF751C56134700A695AA /* SideslipMenuViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideslipMenuViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		180EEF771C56134700A695AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180EEF841C56137E00A695AA /* SlideslipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideslipViewController.h; sourceTree = "<group>"; };
+		180EEF851C56137E00A695AA /* SlideslipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideslipViewController.m; sourceTree = "<group>"; };
+		180EEF861C56137E00A695AA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		180EEF871C56137E00A695AA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		180EEF881C56137E00A695AA /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		180EEF891C56137E00A695AA /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180EEF4A1C56134700A695AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EEF631C56134700A695AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EEF6E1C56134700A695AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180EEF441C56134700A695AA = {
+			isa = PBXGroup;
+			children = (
+				180EEF4F1C56134700A695AA /* SideslipMenuViewControllerDemo */,
+				180EEF691C56134700A695AA /* SideslipMenuViewControllerDemoTests */,
+				180EEF741C56134700A695AA /* SideslipMenuViewControllerDemoUITests */,
+				180EEF4E1C56134700A695AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180EEF4E1C56134700A695AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180EEF4D1C56134700A695AA /* SideslipMenuViewControllerDemo.app */,
+				180EEF661C56134700A695AA /* SideslipMenuViewControllerDemoTests.xctest */,
+				180EEF711C56134700A695AA /* SideslipMenuViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180EEF4F1C56134700A695AA /* SideslipMenuViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				180EEF831C56136100A695AA /* Controller */,
+				180EEF531C56134700A695AA /* AppDelegate.h */,
+				180EEF541C56134700A695AA /* AppDelegate.m */,
+				180EEF591C56134700A695AA /* Main.storyboard */,
+				180EEF5C1C56134700A695AA /* Assets.xcassets */,
+				180EEF5E1C56134700A695AA /* LaunchScreen.storyboard */,
+				180EEF611C56134700A695AA /* Info.plist */,
+				180EEF501C56134700A695AA /* Supporting Files */,
+			);
+			path = SideslipMenuViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		180EEF501C56134700A695AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180EEF511C56134700A695AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180EEF691C56134700A695AA /* SideslipMenuViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				180EEF6A1C56134700A695AA /* SideslipMenuViewControllerDemoTests.m */,
+				180EEF6C1C56134700A695AA /* Info.plist */,
+			);
+			path = SideslipMenuViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		180EEF741C56134700A695AA /* SideslipMenuViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180EEF751C56134700A695AA /* SideslipMenuViewControllerDemoUITests.m */,
+				180EEF771C56134700A695AA /* Info.plist */,
+			);
+			path = SideslipMenuViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		180EEF831C56136100A695AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				180EEF841C56137E00A695AA /* SlideslipViewController.h */,
+				180EEF851C56137E00A695AA /* SlideslipViewController.m */,
+				180EEF861C56137E00A695AA /* DetailViewController.h */,
+				180EEF871C56137E00A695AA /* DetailViewController.m */,
+				180EEF881C56137E00A695AA /* MenuViewController.h */,
+				180EEF891C56137E00A695AA /* MenuViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180EEF4C1C56134700A695AA /* SideslipMenuViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180EEF7A1C56134700A695AA /* Build configuration list for PBXNativeTarget "SideslipMenuViewControllerDemo" */;
+			buildPhases = (
+				180EEF491C56134700A695AA /* Sources */,
+				180EEF4A1C56134700A695AA /* Frameworks */,
+				180EEF4B1C56134700A695AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideslipMenuViewControllerDemo;
+			productName = SideslipMenuViewControllerDemo;
+			productReference = 180EEF4D1C56134700A695AA /* SideslipMenuViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180EEF651C56134700A695AA /* SideslipMenuViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180EEF7D1C56134700A695AA /* Build configuration list for PBXNativeTarget "SideslipMenuViewControllerDemoTests" */;
+			buildPhases = (
+				180EEF621C56134700A695AA /* Sources */,
+				180EEF631C56134700A695AA /* Frameworks */,
+				180EEF641C56134700A695AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180EEF681C56134700A695AA /* PBXTargetDependency */,
+			);
+			name = SideslipMenuViewControllerDemoTests;
+			productName = SideslipMenuViewControllerDemoTests;
+			productReference = 180EEF661C56134700A695AA /* SideslipMenuViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180EEF701C56134700A695AA /* SideslipMenuViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180EEF801C56134700A695AA /* Build configuration list for PBXNativeTarget "SideslipMenuViewControllerDemoUITests" */;
+			buildPhases = (
+				180EEF6D1C56134700A695AA /* Sources */,
+				180EEF6E1C56134700A695AA /* Frameworks */,
+				180EEF6F1C56134700A695AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180EEF731C56134700A695AA /* PBXTargetDependency */,
+			);
+			name = SideslipMenuViewControllerDemoUITests;
+			productName = SideslipMenuViewControllerDemoUITests;
+			productReference = 180EEF711C56134700A695AA /* SideslipMenuViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180EEF451C56134700A695AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MyCompany;
+				TargetAttributes = {
+					180EEF4C1C56134700A695AA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					180EEF651C56134700A695AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 180EEF4C1C56134700A695AA;
+					};
+					180EEF701C56134700A695AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 180EEF4C1C56134700A695AA;
+					};
+				};
+			};
+			buildConfigurationList = 180EEF481C56134700A695AA /* Build configuration list for PBXProject "SideslipMenuViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180EEF441C56134700A695AA;
+			productRefGroup = 180EEF4E1C56134700A695AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180EEF4C1C56134700A695AA /* SideslipMenuViewControllerDemo */,
+				180EEF651C56134700A695AA /* SideslipMenuViewControllerDemoTests */,
+				180EEF701C56134700A695AA /* SideslipMenuViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180EEF4B1C56134700A695AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EEF601C56134700A695AA /* LaunchScreen.storyboard in Resources */,
+				180EEF5D1C56134700A695AA /* Assets.xcassets in Resources */,
+				180EEF5B1C56134700A695AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EEF641C56134700A695AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EEF6F1C56134700A695AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180EEF491C56134700A695AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EEF551C56134700A695AA /* AppDelegate.m in Sources */,
+				180EEF521C56134700A695AA /* main.m in Sources */,
+				180EEF8A1C56137E00A695AA /* SlideslipViewController.m in Sources */,
+				180EEF8B1C56137E00A695AA /* DetailViewController.m in Sources */,
+				180EEF8C1C56137E00A695AA /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EEF621C56134700A695AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EEF6B1C56134700A695AA /* SideslipMenuViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EEF6D1C56134700A695AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EEF761C56134700A695AA /* SideslipMenuViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180EEF681C56134700A695AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180EEF4C1C56134700A695AA /* SideslipMenuViewControllerDemo */;
+			targetProxy = 180EEF671C56134700A695AA /* PBXContainerItemProxy */;
+		};
+		180EEF731C56134700A695AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180EEF4C1C56134700A695AA /* SideslipMenuViewControllerDemo */;
+			targetProxy = 180EEF721C56134700A695AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180EEF591C56134700A695AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180EEF5A1C56134700A695AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180EEF5E1C56134700A695AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180EEF5F1C56134700A695AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180EEF781C56134700A695AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180EEF791C56134700A695AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180EEF7B1C56134700A695AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SideslipMenuViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.SideslipMenuViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180EEF7C1C56134700A695AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SideslipMenuViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.SideslipMenuViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180EEF7E1C56134700A695AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SideslipMenuViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.SideslipMenuViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideslipMenuViewControllerDemo.app/SideslipMenuViewControllerDemo";
+			};
+			name = Debug;
+		};
+		180EEF7F1C56134700A695AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SideslipMenuViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.SideslipMenuViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideslipMenuViewControllerDemo.app/SideslipMenuViewControllerDemo";
+			};
+			name = Release;
+		};
+		180EEF811C56134700A695AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SideslipMenuViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.SideslipMenuViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SideslipMenuViewControllerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		180EEF821C56134700A695AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SideslipMenuViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.SideslipMenuViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SideslipMenuViewControllerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180EEF481C56134700A695AA /* Build configuration list for PBXProject "SideslipMenuViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EEF781C56134700A695AA /* Debug */,
+				180EEF791C56134700A695AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180EEF7A1C56134700A695AA /* Build configuration list for PBXNativeTarget "SideslipMenuViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EEF7B1C56134700A695AA /* Debug */,
+				180EEF7C1C56134700A695AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180EEF7D1C56134700A695AA /* Build configuration list for PBXNativeTarget "SideslipMenuViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EEF7E1C56134700A695AA /* Debug */,
+				180EEF7F1C56134700A695AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180EEF801C56134700A695AA /* Build configuration list for PBXNativeTarget "SideslipMenuViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EEF811C56134700A695AA /* Debug */,
+				180EEF821C56134700A695AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180EEF451C56134700A695AA /* Project object */;
+}
